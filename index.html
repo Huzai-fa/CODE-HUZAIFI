@@ -13,16 +13,36 @@
 
 </head>
   <body >
+
+    
+
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-dark bg-warning">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="Free_Sample_By_Wix.jpg" style=" align-items: center; "  alt="" width="100" height="240" >
-          </a>
+    
+    
+    
+<nav class="navbar navbar-warning navbar-expand-md bg-warning justify-content-between">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse dual-nav w-50 order-1 order-md-0">
         </div>
-      </nav>
+        <a href="/" class="navbar-brand mx-auto d-block text-center order-0 order-md-1 w-25"><img width="100px" src="Free_Sample_By_Wix.jpg"></a>
+        <div class="navbar-collapse collapse dual-nav w-50 order-2">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-twitter"></i></a></li>
+                <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-github"></i></a></li>
+          
+            </ul>
+        </div>
+        
+    </div>
+</nav>
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
        
         <div class="container-fluid">
@@ -32,29 +52,25 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <a href="index.html"> <li class="nav-item active" >
-                   <button type="button" style="margin-left: 10px;"  class="btn btn-outline-light" >Home</button>
+                   <button type="button" style="margin-left: 20px;"  class="btn btn-outline-light" >Home</button>
                 </li></a>
       
               <a href="technews.html">  <li class="nav-item active">
-                    <button type="button" style="margin-left: 10px;" class="btn btn-outline-light">Tech News</button>
+                    <button type="button" style="margin-left: 20px;" class="btn btn-outline-light">Tech News</button>
                 </li>
             </a>      
                <a href="programming.html"> <li class="nav-item active">
-                    <button type="button" style="margin-left: 10px;" class="btn btn-outline-light">Programming</button>
+                    <button type="button" style="margin-left: 20px;" class="btn btn-outline-light">Programming</button>
                 </li>
             </a>
                <a href="social.html">           <li class="nav-item active">
-                    <button type="button" style="margin-left: 10px;" class="btn btn-outline-light">Social Links</button>
+                    <button type="button" style="margin-left: 20px;" class="btn btn-outline-light">Social Links</button>
                 </li></a>
       
       
             </li>
              
             </ul>
-            <form class="d-flex" style="margin-left: 500px;">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-danger" type="submit" style="margin-left: 7px;">Search</button>
-            </form>
           </div>
         </div>
       </nav>
@@ -85,12 +101,12 @@
       </div>
       <hr>
          
-            <div   class="alert alert-dark alert-dismissible" role="alert">
+            <div   class="alert alert-dark alert-dismissible justify-content-between" role="alert">
       
         <strong><i class="fa fa-dark">
 
             <article class="message is-dark">
-                <div class="message-header">
+                <div  class="message-header">
                   <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; letter-spacing: 4px; font-size: large;">RELATED TECHNOLOGIES</p>
                   <button class="delete" aria-label="delete"></button>
                 </div>
@@ -103,6 +119,7 @@
             
                 <img src="python.jpg" style="margin-left: 34px;"width="120px">
                 <img src="cpp.jpg" style="margin-left: 34px;"width="120px">
+                <img src="bitcoin.jpg" style="margin-left: 34px;"width="120px">
           
             </marquee>
                 </div>
